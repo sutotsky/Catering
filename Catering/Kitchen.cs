@@ -69,7 +69,7 @@ public abstract class Kitchen : IEquatable<Kitchen>
     /// </summary>
     public virtual void Close()
     {
-        if (TimeOnly.FromDateTime(DateTime.Now) > CloseTime)
+        if (TimeOnly.FromDateTime(DateTime.Now) < CloseTime)
         {
             throw new Exception("Now is working hours.");
         }
