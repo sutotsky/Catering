@@ -1,13 +1,7 @@
 ﻿namespace Catering;
 
-public enum Employee
+public class Employee
 {
-    Manager,
-    SalesManager,
-    MarketingManager,
-    ClientServiceManager,
-    ProductManager,
-    Waiter,
-    ChiefChef,
-    AssistantChef
+    public Id PersonalId { get; set; }
+    public Address PersonalAddre { get; set; }
 }
