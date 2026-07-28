@@ -1,7 +1,7 @@
 ﻿namespace Catering;
 
-public class AssistantChef: Employee
+public class AssistantChef: Chef
 {
-    public string HelpChefInKichen { get; set; }
+    public string HelpChiefChefInKichen { get; set; }
     public string WorkInKichen { get; set; }
 }

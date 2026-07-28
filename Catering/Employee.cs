@@ -3,5 +3,5 @@
 public class Employee
 {
     public Id PersonalId { get; set; }
-    public Address PersonalAddre { get; set; }
+    public Address EmployeeAddress { get; set; }
 }

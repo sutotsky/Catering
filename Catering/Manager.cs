@@ -2,6 +2,7 @@
 
 public class Manager : Employee
 {
-    public string ManageCatering { get; set; }
+    public string ManageAndCareOfPossitionInCatering { get; set; }
+    public string MaintainOrder { get; set; }
     
 }

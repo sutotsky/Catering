@@ -1,7 +1,7 @@
 ﻿namespace Catering;
 
-public class Chef : Employee
+public class Chef: KitchenStaff
 {
     public string CookFood { get; set; }
-    public string WorkInKichen { get; set; }
+    public string WorkInTheKitchen { get; set; }
 }
