@@ -2,5 +2,4 @@
 
 public class KitchenStaff: Employee
 {
-    public string DoYourJobInTheKitchen { get; set; }
 }

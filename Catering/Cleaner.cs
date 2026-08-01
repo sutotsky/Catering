@@ -2,5 +2,4 @@
 
 public class Cleaner: TechnicalStaff
 {
-    public string CleanAllNecesaryPlaces { get; set; }
 }
