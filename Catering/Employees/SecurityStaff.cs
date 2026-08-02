@@ -1,5 +1,5 @@
 ﻿namespace Catering.Employees;
 
-public class SecurityStaff: Employee
+public abstract class SecurityStaff: Employee
 {
 }

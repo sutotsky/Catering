@@ -1,5 +1,5 @@
 ﻿namespace Catering.Employees;
 
-public class Chef: KitchenStaff
+public abstract class Chef: KitchenStaff
 {
 }
