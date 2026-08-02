@@ -1,4 +1,4 @@
-﻿namespace Catering;
+﻿namespace Catering.BusinessOperations;
 
 /// <summary>
 /// Base kitchen aggregate.

@@ -1,4 +1,4 @@
-﻿namespace Catering;
+﻿namespace Catering.HR;
 
 public class Address
 {

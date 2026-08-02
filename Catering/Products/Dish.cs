@@ -1,4 +1,4 @@
-﻿namespace Catering;
+﻿namespace Catering.Products;
 
 public class Dish
 {
