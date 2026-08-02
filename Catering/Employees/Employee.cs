@@ -1,4 +1,6 @@
-﻿namespace Catering;
+﻿using Catering.HR;
+
+namespace Catering.Employees;
 
 public class Employee
 {
