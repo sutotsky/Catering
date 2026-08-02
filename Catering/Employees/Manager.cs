@@ -1,5 +1,5 @@
 ﻿namespace Catering.Employees;
 
-public class Manager : Employee
+public abstract class Manager : Employee
 {
 }
