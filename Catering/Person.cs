@@ -1,10 +1,9 @@
 ﻿namespace Catering;
 
-public class Id
+public class Person
 {
     public string FirstName { get; set; }
     public string MiddleName { get; set; }
     public string LastName { get; set; }
-    
-    public Address EmployeeAddress { get; set; }
+    public Address Address { get; set; }
 }
