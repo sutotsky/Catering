@@ -2,6 +2,7 @@
 
 public enum CookingDifficulty
 {
+    Unknown,
     Easy,
     Medium,
     Hard
