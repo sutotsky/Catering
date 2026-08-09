@@ -1,8 +1,8 @@
 ﻿namespace Catering.Products;
 
-public class Dish
+public abstract class Dish
 {
     public string Name { get; set; }
-    public string Taste { get; set; }
-    private int Quantity { get; set; }
+    public int Calories { get; set; }
+    public CookingDifficulty CookingDifficulty { get; set; }
 }
