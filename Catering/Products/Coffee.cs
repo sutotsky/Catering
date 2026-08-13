@@ -2,10 +2,10 @@
 
 public abstract class Coffee : Drink
 {
-    public string CoffeeBean { get; protected set; }
+    public string CoffeeBean { get; set; }
 
     public Coffee()
     {
-        Console.WriteLine("making coffee");
+        Console.WriteLine("Creating coffee");
     }
 }
