@@ -4,12 +4,10 @@ public abstract class Coffee : Drink
 {
     public string CoffeeBean { get; protected set; }
     
-    public string  BeanTypeQuality { get; protected set; } 
+    public CoffeeBeanQuality CoffeeBeanQuality { get; protected set; } 
 
     public Coffee()
     {
-        CoffeeBean = BeanTypeQuality;
-        
         Console.WriteLine("making coffee");
     }
 }

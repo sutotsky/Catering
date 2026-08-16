@@ -6,7 +6,7 @@ public static class Program
 {
     public static void Main(string[] args)
     {
-        Americano americano = new Americano();
+        Americano americano = new Americano("Nigeria", CoffeeBeanQuality.High);
 
         Console.WriteLine(americano.Name);
         Console.WriteLine(americano.Calories);
@@ -20,7 +20,7 @@ public static class Program
         Console.WriteLine(blackTea.CookingDifficulty);
 
 
-        Cappuccino cappuccino = new Cappuccino();
+        Cappuccino cappuccino = new Cappuccino("Ghana", CoffeeBeanQuality.High);
 
         Console.WriteLine(cappuccino.Name);
         Console.WriteLine(cappuccino.Calories);
@@ -53,5 +53,15 @@ public static class Program
         Console.WriteLine(eggDrop.Name);
         Console.WriteLine(eggDrop.Calories);
         Console.WriteLine(eggDrop.CookingDifficulty);
+
+        Americano americano1 = new Americano("Brazilian", CoffeeBeanQuality.Medium);
+
+        Console.WriteLine(americano1.CoffeeBean);
+        Console.WriteLine(americano1.CoffeeBeanQuality);
+
+        Americano americano2 = new Americano("Kenya", CoffeeBeanQuality.High);
+
+        Console.WriteLine(americano2.CoffeeBean);
+        Console.WriteLine(americano2.CoffeeBeanQuality);
     }
 }
