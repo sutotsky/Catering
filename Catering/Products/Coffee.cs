@@ -8,6 +8,8 @@ public abstract class Coffee : Drink
 
     public Coffee()
     {
+        CoffeeBean = BeanTypeQuality;
+        
         Console.WriteLine("making coffee");
     }
 }
