@@ -8,7 +8,7 @@ public class Espresso : Coffee
         Calories = 30;
         CookingDifficulty = CookingDifficulty.Easy;
         CoffeeBean = coffeebean;
-        CoffeeBeanQuality = CoffeeBeanQuality;
+        CoffeeBeanQuality = coffeeBeanQuality;
 
         Console.WriteLine("Making Espresso");
 
