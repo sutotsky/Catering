@@ -174,5 +174,15 @@ public static class Program
         Console.WriteLine(temaki.Name);
         Console.WriteLine(temaki.Calories);
         Console.WriteLine(temaki.CookingDifficulty);
+
+
+        BarberShop barberShop = new BarberShop();
+        Person aPerson = new Person();
+
+        aPerson.Name = "Andrey";
+        
+        barberShop.Haircut(aPerson);
+
+        Console.WriteLine("Give Andrey a haircut ");
     }
 }
