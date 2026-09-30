@@ -1,12 +1,23 @@
 ﻿namespace Catering;
 
 public class BarberShop
-
-
 {
-    public void Haircut(Person HairToCut)
+    public int _hairCut;
+    
+    public int Haircut
     {
-        Console.WriteLine("person Haircut");
+        get
+        {
+            return _hairCut;
+        }
+        set
+        {
+            if (value >= 3)
+            {
+                _hairCut = value;
+            }
+                
+        }
     }
-
+    
 }   
