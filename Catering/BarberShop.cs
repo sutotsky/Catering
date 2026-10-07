@@ -2,22 +2,11 @@
 
 public class BarberShop
 {
-    public int _hairCut;
-    
-    public int Haircut
+    public string Name { get; set; }
+    public string Address { get; set; }
+    public void ApplyHairCut(Person client, HairStyle hairStyle)
     {
-        get
-        {
-            return _hairCut;
-        }
-        set
-        {
-            if (value >= 3)
-            {
-                _hairCut = value;
-            }
-                
-        }
+        Console.WriteLine("ApplyHaitcut");
     }
     
 }   
